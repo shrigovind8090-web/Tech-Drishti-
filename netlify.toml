@@ -1,0 +1,9 @@
+[build]
+  command = "echo 'Tech Drishti is a static site - nothing to build'"
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
